@@ -10,9 +10,10 @@ def start_server(host: str, port:int):
     client_socket.close()
 
 
-if __name__ =='__main__':
-    HOST = 'localhost' #ENDEREÇO IP DO SERVIDOR
+if __name__=='__main__':
+    HOST = 'localhost' # ENDEREÇO IP DO SERVIDOR
     PORT = 8000 # PORTA DO SERVIDOR
 
 
-start_server(HOST, PORT)
+
+start_server(HOST,PORT)
